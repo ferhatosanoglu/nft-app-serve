@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get('/block', (req, res) => {
     res.status(200).json({
-        message: 'get user'
+        message: 'get block'
     });
 });
 module.exports = router;

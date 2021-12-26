@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get('/market', (req, res) => {
     res.status(200).json({
-        message: 'get user'
+        message: 'get market'
     });
 });
 module.exports = router;
