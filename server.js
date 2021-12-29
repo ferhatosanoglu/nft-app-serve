@@ -12,6 +12,7 @@ app.use(routers.userRouter);
 app.use(routers.walletRouter);
 app.use(routers.marketRouter);
 app.use(routers.blockRouter);
+app.use(routers.portfolioRouter);
 
 app.use((req, res) => {
     res.status(HttpStatusCode.NOT_FOUND).send("404 NOT FOUND");
